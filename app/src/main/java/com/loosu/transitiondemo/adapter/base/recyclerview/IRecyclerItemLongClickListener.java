@@ -1,0 +1,12 @@
+package com.loosu.transitiondemo.adapter.base.recyclerview;
+
+import android.support.v7.widget.RecyclerView;
+import android.view.View;
+
+/**
+ * Created by Administrator on 2018/5/27/027.
+ */
+
+public interface IRecyclerItemLongClickListener {
+    public boolean onItemLongClick(RecyclerView parent, int position, RecyclerView.ViewHolder holder, View view);
+}

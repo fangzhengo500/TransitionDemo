@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TransitionDemo</string>
+    <string name="main_drawer_open_desc">打开菜单</string>
+    <string name="main_drawer_close_desc">关闭菜单</string>
+    <string name="author_name">LooSu</string>
+    <string name="author_desc">https://github.com/fangzhengo500</string>
+</resources>
