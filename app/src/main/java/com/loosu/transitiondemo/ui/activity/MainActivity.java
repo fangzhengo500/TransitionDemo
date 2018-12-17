@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 
 import com.loosu.transitiondemo.R;
+import com.loosu.transitiondemo.ui.fragment.ChangeBoundsFragment;
 import com.loosu.transitiondemo.ui.fragment.TransitionSimpleFragment;
 
 public class MainActivity extends AppCompatActivity {
@@ -42,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
         toggle.syncState();
 
         getSupportFragmentManager().beginTransaction()
-                .replace(R.id.layout_main_content, new TransitionSimpleFragment())
+                .replace(R.id.layout_main_content, new ChangeBoundsFragment())
                 .commit();
     }
 }
